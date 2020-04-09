@@ -3,39 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/frontPage/frontPageMain.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
 	<title>カラオフ</title>
 </head>
-	<body>
-		<header>
-			<!-- ヘッダー -->
-			<div>
-				<!-- サイトタイトル -->
-				<h3>カラオフ（仮称）</h3>
-			</div>
-
-			<div>
-				<!-- アイコン群 -->
-				<div>
-					<!-- ログインボタン -->
-				</div>
-				<div>
-					<!-- 新規登録ボタン -->
-				</div>
-			</div>
-		</header>
-
-		<div>
-			<!-- main contents -->
-			
+	<body class="d-flex flex-column" style="min-height: 100vh">
+		<div class="navbar-fixed-top">
+			<nav>fixed nav bar on top </nav>
 		</div>
 
-		<footer>
-			<div>
-				<!-- contact us -->
-				<div>
-					<a href="">Contact us...</a>
-				</div>
-			</div>
-		</footer>
+		<div class="main_content mb-auto">
+			<!-- main contents -->
+
+		</div>
+
+		<div id="footer">
+			Contact us.
+		</div>
 	</body>
 </html>
