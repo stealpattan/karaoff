@@ -8,7 +8,14 @@
 </head>
 	<body class="d-flex flex-column" style="min-height: 100vh">
 		<div class="navbar-fixed-top">
-			<nav>fixed nav bar on top </nav>
+			<nav>
+				<div>
+					カラオフ
+				</div>
+				<div>
+					□
+				</div>
+			</nav>
 		</div>
 
 		<div class="main_content mb-auto">
