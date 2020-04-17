@@ -5,3 +5,10 @@
 	color: white;
 }
 
+.horizontal_item{
+	display: inline-block;
+}
+
+.vertical_item{
+	display: block;
+}

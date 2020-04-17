@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 // Hello World
-Route::get('hello', 'HelloController@index');
+Route::get('hello', 'HelloController@index')->name('hello_world');
 
 // FrontPage
-Route::get('frontPage', 'FrontPageController@index');
+Route::get('frontPage', 'FrontPageController@index')->name('front_page');
