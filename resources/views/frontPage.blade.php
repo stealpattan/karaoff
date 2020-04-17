@@ -9,27 +9,28 @@
 </head>
 	<body class="d-flex flex-column body_style" style="min-height: 100vh">
 		<div class="navbar-fixed-top">
-			<nav>
-				<div class="horizontal_item">
-					カラオフ
+			<nav id="top_nav_bar">
+				<div class="horizontal_item" id="site_title_on_top_nav_bar">
+					カラオフ!
 				</div>
-				<div class="horizontal_item">
-					<form>
-						<input type="text" name="off_search">
+				<div class="horizontal_item" id="search_func_on_nav_bar">
+					
+					<input type="text" name="off_search">
+					<button>
+						探す
+					</button>
+				</div>
+				<div class="horizontal_item" id="button_func_on_nav_bar">
+					<div class="horizontal_item">
 						<button>
-							探す
+							ログイン
 						</button>
-					</form>
-				</div>
-				<div class="horizontal_item">
-					<button>
-						ログイン
-					</button>
-				</div>
-				<div class="horizontal_item">
-					<button>
-						新規登録
-					</button>
+					</div>
+					<div class="horizontal_item">
+						<button>
+							新規登録
+						</button>
+					</div>
 				</div>
 			</nav>
 		</div>
