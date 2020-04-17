@@ -16,8 +16,8 @@
 				<div class="horizontal_item" id="search_func_on_nav_bar">
 					
 					<input type="text" name="off_search">
-					<button>
-						探す
+					<button class="btn-square-toy">
+						○ 探す ○
 					</button>
 				</div>
 				<div class="horizontal_item" id="button_func_on_nav_bar">
