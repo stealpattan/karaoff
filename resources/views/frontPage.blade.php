@@ -2,11 +2,12 @@
 <html lang="ja">
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/common/all_page_common.css">
 	<link rel="stylesheet" type="text/css" href="css/frontPage/frontPageMain.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
 	<title>カラオフ</title>
 </head>
-	<body class="d-flex flex-column" style="min-height: 100vh">
+	<body class="d-flex flex-column body_style" style="min-height: 100vh">
 		<div class="navbar-fixed-top">
 			<nav>
 				<div class="horizontal_item">
@@ -52,12 +53,12 @@
 				</div>
 			</div>
 			<div class="vertical_item">
-				<!-- song ranking -->
-				最近の流行り
-			</div>
-			<div class="vertical_item">
 				<!-- category off -->
 				カテゴリ別で探す
+			</div>
+			<div class="vertical_item">
+				<!-- song ranking -->
+				最近の流行り
 			</div>
 		</div>
 
