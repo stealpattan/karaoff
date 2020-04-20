@@ -5,29 +5,29 @@
 	<link rel="stylesheet" type="text/css" href="css/common/all_page_common.css">
 	<link rel="stylesheet" type="text/css" href="css/frontPage/frontPageMain.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
-	<title>カラオフ</title>
+	<title>music-off</title>
 </head>
 	<body class="d-flex flex-column body_style" style="min-height: 100vh">
 		<div class="navbar-fixed-top">
 			<nav id="top_nav_bar">
 				<div class="horizontal_item" id="site_title_on_top_nav_bar">
-					カラオフ!
+					music-"off"
 				</div>
 				<div class="horizontal_item" id="search_func_on_nav_bar">
 					
-					<input type="text" name="off_search">
-					<button class="btn-square-toy">
-						○ 探す ○
+					<input type="text" name="search_text_box">
+					<button id="search_button_on_nav_bar" class="button_on_nav_bar_all button_all_on_nav_bar">
+						探す 
 					</button>
 				</div>
-				<div class="horizontal_item" id="button_func_on_nav_bar">
+				<div class="horizontal_item button_on_nav_bar_all" id="func_button_on_nav_bar">
 					<div class="horizontal_item">
-						<button>
+						<button class="button_all_on_nav_bar">
 							ログイン
 						</button>
 					</div>
 					<div class="horizontal_item">
-						<button>
+						<button class="button_all_on_nav_bar">
 							新規登録
 						</button>
 					</div>
