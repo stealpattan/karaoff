@@ -1,0 +1,15 @@
+/*category index part*/
+
+.category_items{
+	text-align: center;
+	margin-top:2px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid 1px #ffd319;
+}
+.category_items:hover{
+	background-color: #ffd319;
+	color: white;
+}
