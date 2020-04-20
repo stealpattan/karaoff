@@ -36,30 +36,56 @@
 		</div>
 
 		<div class="main_content mb-auto">
-			<!-- main contents -->
-			<div class="vertical_item">
-				<!-- near off -->
-				あなたの近くのオフ！
-				<div>
-					<!-- pics -->
+			<div class="container">
+				<!-- main contents -->
+				<div class="vertical_item">
+					<!-- near off -->
+					あなたの近くのオフ！
 					<div>
-						<!-- pic1 -->
-					</div>
-					<div>
-						<!-- pic2 -->
-					</div>
-					<div>
-						<!-- pic3 -->
+						<!-- pics -->
+						<div>
+							<!-- pic1 -->
+						</div>
+						<div>
+							<!-- pic2 -->
+						</div>
+						<div>
+							<!-- pic3 -->
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="vertical_item">
-				<!-- category off -->
-				カテゴリ別で探す
-			</div>
-			<div class="vertical_item">
-				<!-- song ranking -->
-				最近の流行り
+				<div class="vertical_item col-md-12 col-xs-6">
+					<!-- category off -->
+					<div class="">○カテゴリ別で探す</div>
+					<div class="row">
+						<!-- category index -->
+						<div class="col-md-4 category_items">
+							カテゴリ1
+						</div>
+						<div class="col-md-4 category_items">
+							カテゴリ2
+						</div>
+						<div class="col-md-4 category_items">
+							カテゴリ3
+						</div>
+						<div class="col-md-4 category_items">
+							カテゴリ4
+						</div>
+						<div class="col-md-4 category_items">
+							カテゴリ5
+						</div>
+						<div class="col-md-4 category_items">
+							カテゴリ6
+						</div>
+						<div class="col-md-6 category_items">
+							もっと見る
+						</div>
+					</div>
+				</div>
+				<div class="vertical_item">
+					<!-- song ranking -->
+					最近の流行り
+				</div>
 			</div>
 		</div>
 
