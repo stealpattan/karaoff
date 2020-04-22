@@ -15,16 +15,19 @@
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: center;
-	border-bottom: solid 1px gray;
+	border-bottom: solid 1px lightgray;
 }
 
 #site_title_on_top_nav_bar{
 	float: left;
 	height: 100%;
 	width: 200px;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	background-color: #ffd319;
 	border-radius: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
 }
 
 #search_func_on_nav_bar{
@@ -36,18 +39,17 @@
 }
 
 #func_button_on_nav_bar{
-	float: right;
 	margin-right: 10px;
 	height: 100%;
 }
 
-.button_all_on_nav_bar{
+.all_button_on_nav_bar{
 	border-style: none;
 	background-color: white;
 	border: solid 1px #ffd319;
 	font-size: 1.0em;
 }
-.button_all_on_nav_bar:hover{
+.all_button_on_nav_bar:hover{
 	background-color: #ffd319;
 	color: white;
 	font-size: 1.2em;

@@ -8,27 +8,32 @@
 	<title>music-off</title>
 </head>
 	<body class="d-flex flex-column body_style" style="min-height: 100vh">
-		<div class="navbar-fixed-top">
-			<nav id="top_nav_bar">
+		<div class="navbar-fixed-top navbar navbar-expand-sm bg-light navbar-light">
+			<nav id="top_nav_bar navbar-expand-md">
 				<div class="horizontal_item" id="site_title_on_top_nav_bar">
 					music-"off"
 				</div>
-				<div class="horizontal_item" id="search_func_on_nav_bar">
-					
-					<input type="text" name="search_text_box">
-					<button id="search_button_on_nav_bar" class="button_on_nav_bar_all button_all_on_nav_bar">
-						探す 
-					</button>
-				</div>
-				<div class="horizontal_item button_on_nav_bar_all" id="func_button_on_nav_bar">
-					<div class="horizontal_item">
-						<button class="button_all_on_nav_bar">
-							ログイン
-						</button>
+				<!-- toggler button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"  aria-controlls="navContent" aria-expanded="false">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="horizontal_item collapse navbar-collapse" id="navContent">
+					<div class="horizontal_item button_on_nav_bar_all" id="func_button_on_nav_bar">
+						<div class="horizontal_item">
+							<button class="all_button_on_nav_bar">
+								ログイン
+							</button>
+						</div>
+						<div class="horizontal_item">
+							<button class="all_button_on_nav_bar">
+								新規登録
+							</button>
+						</div>
 					</div>
-					<div class="horizontal_item">
-						<button class="button_all_on_nav_bar">
-							新規登録
+					<div class="horizontal_item" id="search_func_on_nav_bar">				
+						<input type="text" name="search_text_box">
+						<button id="search_button_on_nav_bar" class="button_on_nav_bar_all all_button_on_nav_bar">
+							探す 
 						</button>
 					</div>
 				</div>
@@ -92,5 +97,9 @@
 		<div id="footer">
 			Contact us.
 		</div>
+		<!-- js libralies... -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	</body>
 </html>
