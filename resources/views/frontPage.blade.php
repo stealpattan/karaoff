@@ -9,30 +9,31 @@
 </head>
 	<body class="d-flex flex-column body_style" style="min-height: 100vh">
 		<div class="navbar-fixed-top navbar navbar-expand-sm bg-light navbar-light">
-			<nav id="top_nav_bar navbar-expand-md">
+			<nav id="top_nav_bar" class="navbar-expand-md">
 				<div class="horizontal_item" id="site_title_on_top_nav_bar">
-					music-"off"
+					KARAOKEオフ
 				</div>
 				<!-- toggler button -->
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"  aria-controlls="navContent" aria-expanded="false">
+				<button class="navbar-toggler nav_content_on_right" type="button" data-toggle="collapse" data-target="#navContent"  aria-controlls="navContent" aria-expanded="false">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="horizontal_item collapse navbar-collapse" id="navContent">
+
+				<div class="horizontal_item collapse navbar-collapse nav_content_on_right" id="navContent">
 					<div class="horizontal_item button_on_nav_bar_all" id="func_button_on_nav_bar">
-						<div class="horizontal_item">
+						<div class="horizontal_item nav_func">
 							<button class="all_button_on_nav_bar">
 								ログイン
 							</button>
 						</div>
-						<div class="horizontal_item">
+						<div class="horizontal_item nav_func">
 							<button class="all_button_on_nav_bar">
 								新規登録
 							</button>
 						</div>
 					</div>
-					<div class="horizontal_item" id="search_func_on_nav_bar">				
+					<div class="horizontal_item nav_func">
 						<input type="text" name="search_text_box">
-						<button id="search_button_on_nav_bar" class="button_on_nav_bar_all all_button_on_nav_bar">
+						<button class="button_on_nav_bar_all all_button_on_nav_bar">
 							探す 
 						</button>
 					</div>
@@ -59,7 +60,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="vertical_item col-md-12 col-xs-6">
+				<div class="vertical_item col-md-12">
 					<!-- category off -->
 					<div class="">○カテゴリ別で探す</div>
 					<div class="row">
@@ -82,7 +83,7 @@
 						<div class="col-md-3 category_items">
 							カテゴリ6
 						</div>
-						<div class="col-md-6 category_items">
+						<div class="col-md-6category_items">
 							もっと見る
 						</div>
 					</div>

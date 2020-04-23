@@ -21,17 +21,16 @@
 	color: white;
 }
 
-#search_func_on_nav_bar{
-
+#top_nav_bar{
+	width: 100%;
 }
 
-#search_button_on_nav_bar{
-	border-radius: 10px;
+.nav_content_on_right{
+	float: right;
 }
 
-#func_button_on_nav_bar{
-	margin-right: 10px;
-	height: 100%;
+.nav_func{
+	margin-left: 5px;
 }
 
 .all_button_on_nav_bar{
