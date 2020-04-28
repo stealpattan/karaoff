@@ -32,6 +32,12 @@
 				</div>
 			</div>
 		</div>
+		@foreach($items)
+			<p>
+				{{$items->cat_id}}
+				{{$items->cat_name}}
+			</p>
+		@endforeach
 		<div class="vertical_item">
 			<!-- song ranking -->
 			最近の流行り

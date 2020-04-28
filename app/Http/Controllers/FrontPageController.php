@@ -8,6 +8,9 @@ class FrontPageController extends Controller
 {
     //
     public function index(){
-    	return view('frontPage');
+    	$items = \DB::table('category')->get();
+    	return view('frontPage', [
+    		'items'=>$items
+    	]);
     }
 }
