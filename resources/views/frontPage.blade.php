@@ -35,6 +35,7 @@
 		<div class="vertical_item">
 			<!-- song ranking -->
 			最近の流行り
+			{{$test}}
 		</div>
 	</div>
 </div>
