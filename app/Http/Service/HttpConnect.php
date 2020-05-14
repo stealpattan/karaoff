@@ -7,7 +7,7 @@ class HttpConnect{
 		// initialize client
 		$client = new \GuzzleHttp\Client();
 		// execute request
-		$response = $client->request('GET', 'https://www.hoehoe');
+		$response = $client->request('GET', 'https://www.google.com');
 		// return
 		return $response->getBody();
 	}
