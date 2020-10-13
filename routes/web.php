@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 // Hello World
 Route::get('hello', 'HelloController@index')->name('hello_world');
-
 // FrontPage
 Route::get('frontPage', 'FrontPageController@index')->name('front_page');
+// LoginPage
+Route::get('loginPage', 'LoginController@index')->name('loginPage');
