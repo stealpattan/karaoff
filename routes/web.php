@@ -24,4 +24,4 @@ Route::get('frontPage', 'FrontPageController@index')->name('front_page');
 // LoginPage
 Route::get('loginPage', 'LoginController@index')->name('loginPage');
 // API
-Route::resource('api', 'APIController');
+Route::resource('/api/{route}', 'APIController');

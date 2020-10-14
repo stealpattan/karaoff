@@ -13,14 +13,14 @@
 		<input type="text" name="email" v-model="email">
 		<input type="password" name="password" v-model="password">
 		<button class="button" v-on:click="parameterSend()">ログイン実行</button>
-		<p>@{{ errorMessage }}</p>
+		<p>@{{ message }}</p>
 	</div>
 
 	<script>
 		let login_function = new Vue({
 			el: '#login_section',
 			data:{
-				errorMessage: ''
+				message: ''
 			},
 			methods:{
 				parameterSend: function (){
@@ -32,16 +32,16 @@
 					let passwordIsNull = isNull(password);
 					// メールアドレス、パスワードが空の場合はエラーとする
 					if(emailIsNull == true || passwordIsNull == true){
-						this.errorMessage = 'メールアドレスとパスワードが正しく入力されているか確認してください。';
+						this.message = 'メールアドレスとパスワードが正しく入力されているか確認してください。';
 					}
 					else{
-						this.errorMessage = 'ログイン実行中...';
+						this.message = 'ログイン実行中...';
 						// サーバーサイドログイン処理の呼び出し
-						axios.get('http://localhost/laravel/public/api/')
+						axios.get('http://localhost/laravel/public/api/login')
 						.then(response => {
-							this.errorMessage = response;
+							this.message = response;
 						}).catch(error => {
-							this.errorMessage = error;
+							this.message = error;
 						});
 					}
 				}
