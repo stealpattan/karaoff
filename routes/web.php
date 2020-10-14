@@ -23,3 +23,5 @@ Route::get('hello', 'HelloController@index')->name('hello_world');
 Route::get('frontPage', 'FrontPageController@index')->name('front_page');
 // LoginPage
 Route::get('loginPage', 'LoginController@index')->name('loginPage');
+// API
+Route::resource('api', 'APIController');
