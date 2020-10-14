@@ -3,6 +3,7 @@
 namespace APP\Http\Facade;
 
 use Illuminate\Http\Request;
+use App\Http\Service\HttpConnect;
 
 class APIFacade{
 	public function redirect($route, Request $parameter){
@@ -22,13 +23,10 @@ class APIFacade{
 	public function loginExecuteAPI($parameter){
 		// メールアドレスとパスワードが送信されてきているかチェック
 		// nodeAPIを呼び出す
+		$connection = new HttpConnect;
+		$res = $connection->callLoginAPI();
 		// 結果を返す
-		$status = array(
-			'condition'=>'succes',
-			'userName'=>'伊藤翔馬',
-			'email'=>'stealpattan@gmail.com'
-		);
-		return $status;
+		return $res;
 	}
 }
 

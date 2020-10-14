@@ -14,10 +14,9 @@ class APIController extends Controller
             $facade = new APIFacade;
             $result = $facade->redirect($route, $req);
             Log::debug($result);
-            $json = json_encode($result);
-            return response($json);
+            return response($result);
         } catch (Exception $e) {
-            Log::debg($e);
+            Log::debug($e);
             return response("fail");
         }
     }
