@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-	<meta name="csrf-token" content="{{ csrf_token() }}">
+<!-- 	<meta name="csrf-token" content="{{ csrf_token() }}"> -->
 	<meta charset="utf-8">
 	<title>hello</title>
 	<!-- Vue.js -->
 	<script src="https://unpkg.com/vue"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
 </head>
 <body>
 	<div id="login_section">
@@ -36,7 +37,12 @@
 					else{
 						this.errorMessage = 'ログイン実行中...';
 						// サーバーサイドログイン処理の呼び出し
-						
+						axios.get('http://localhost/laravel/public/api/')
+						.then(response => {
+							this.errorMessage = response;
+						}).catch(error => {
+							this.errorMessage = error;
+						});
 					}
 				}
 			}
